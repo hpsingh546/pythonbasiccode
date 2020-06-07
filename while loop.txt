@@ -1,0 +1,36 @@
+                              loop
+which is used to repetatonof statement 
+there are two type of loop in python 
+while loop
+for loop
+
+while loop
+i=1 #initialization
+while i<=10:#condition 
+    print("manu")
+    i+=1#increment/decreament
+    
+
+nested while loop
+
+i=1 #initialization
+j=1 #initialization
+while i<=10:#condition
+    print("manu")
+    while j<3:
+        print("gadha")
+        j+=1
+    i+=1#increment/decreament
+    j=1
+
+by default print move cursor into newline if you want to print next statement on same line you can use end= " "
+i=1 #initialization
+j=1 #initialization
+while i<=10:#condition
+    print("manu",end=" ")
+    while j<3:
+        print("gadha",end="")
+        j+=1
+    i+=1#increment/decreament
+    j=1
+    print("\n")

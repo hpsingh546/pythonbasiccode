@@ -1,0 +1,4 @@
+break continue pass keyword in python 
+break keword= this keyword is used to jump out  from loop
+continue= this keyword is used to itertate loop from next iteration
+pass=in python we cant left empty block so when we dont want to put any statement in if else or anywhere we just use the keyword pass this mean just pass the statement if we left empty block we get an error

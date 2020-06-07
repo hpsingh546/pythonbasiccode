@@ -1,0 +1,35 @@
+                        variableit 
+it is a container in which we store value.
+In python we can define variable by using 
+variable name=value
+we do not need to define data type of variable it automatically detect variable type
+>>> x=291.291
+>>> y=291
+>>> x+y
+582.2909999999999
+>>> _+291
+873.2909999999999
+_ underscore is used for output for previous operation
+
+string is a array of characters
+>>> name[0]
+'m'
+>>> name[-3]
+'n'
+we can also use negative number it will give from last charcter
+>>> name[-1]
+'h'
+>>> name[-5]
+
+it will print the character start with 0 and end with index 2
+>>> name[0:3]
+'man'
+name[1:] it will start with 1 and it will go till the end 
+name[:3] it will start with 0 and end with index 2
+string in python is immutable that mean once we assign the charcater it cannot change it 
+name[0]='d' it is not possible
+len function return number of character in string 
+len(name)
+it will return length string variable name
+
+

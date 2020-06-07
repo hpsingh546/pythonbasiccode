@@ -1,0 +1,16 @@
+all the inbuit function is not run by default because it is define in diffrent module which is not import by default in program such as sqrt function which is define in module called math and which not import by default so we have to import math by using the code 
+
+import modulename  this statement import all function classes variable define in this module we need specify modulename when we want to call function
+import math
+math.sqrt(23)
+
+if you want to import some function from module you use this statement
+
+from modulename import functionname,variable,classes
+when we import particall we dont need to specify module name when we call function
+from math import pow,sqrt
+sqrt(32)
+
+we can also create alternative name for module name which we are import
+ import math as m
+m.sqrt(3283)

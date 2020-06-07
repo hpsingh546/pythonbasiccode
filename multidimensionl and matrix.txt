@@ -1,0 +1,30 @@
+                          multidimensional array and matric
+from numpy import *
+'''
+mul=array([
+    [1,2],[5,8],[9,87],[2,1]
+])#in this way we can create twwo dimensional array
+print(mul.ndim)#this will return dimension of array
+print(mul.shape)#it will give you the number of row and number of column
+print(mul.size)#it will give you the size of the array which is equal to number of row * number of column
+mul1d=mul.flatten()#this function return an copy of array and convert multidimensional array into  1 dimensional
+mul2d=mul1d.reshape(2,2,2)#this function is used to convert single dimensional array into multidimensional array and we need to pass the order of array
+mul2d=mul1d.reshape(4,2)
+print(mul1d)
+print(id(mul))
+print(id(mul1d))
+print(mul2d)
+m=matrix(mul)#by using the function matrix we can conver multidimenstional array into matrix
+'''
+m1=matrix('1 2 3 ;4 5 7')#we can also create matrix by passing string this 2*3 matrix
+print(m1)
+print(diagonal(m1))#this will print the diagonal element in m1
+#the function which we perform on array we can perform on matrix but we can also perform some other function
+m2=matrix('2 3 4 ; 5 6 7 ; 7 8 9')
+
+print("m1=",m1)
+print("m2",m2)
+
+m4=m1 * m2 #To perform matrix multiplication of matrices a and b , the number of columns in a must be equal to the number of rows in b otherwise we cannot perform matrix multiplication.
+#We must check this condition otherwise we will face runtime error.
+print("m4=",m4)

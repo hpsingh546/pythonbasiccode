@@ -1,0 +1,27 @@
+                             for loop
+in while we specify condition but in for loop we dont specify the condition 
+for loop mostly used for sequence or string such as list stack tupple where we need to print the value of sequence one by one 
+
+syntax of for loop 
+
+for i(variable name) in (sequencer name):
+   print(i)
+i will refer to one element at a time initially it will refer to first element in the then second and so one by one it will fetch the value
+ 
+a=[1,2,3,34]
+for i in a:
+    print(i)
+   
+a='manumanu'
+for i in a:
+    print(i,end='')
+
+
+a='manumanu'
+
+i=0
+while i<len(a):
+    print(a[i],end="")
+    i+=1
+
+

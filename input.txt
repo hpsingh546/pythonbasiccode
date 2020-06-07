@@ -1,0 +1,18 @@
+                          input from user
+input(prompt=None, /)
+Read a string from standard input. The prompt string, if given, is printed to standard output without a trailing newline before reading input.
+in simple word this function read string from input console and wty[e have to typecast into the datatype which we need 
+
+a=int(input("enter the number\n"))
+this statement take input as string and convert it into number 
+
+eval function is used to calculate expression
+a=eval(input("enter the expression")
+print(a)
+if you want to pass value from cmd we use argv which define in module sys and take value as sring
+
+code
+import sys
+a=int(sys.argv[1])
+b=int(sys.argv[2])
+print(a+b)

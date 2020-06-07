@@ -1,0 +1,47 @@
+                              data type
+None = when you have a variable and that variable is not assigned to any value thenit is None noramlly in other language we use keyword null
+numeric
+1.int
+2.float
+3.bool
+4.complex=complex number is represent in python in form of a+bj where a and b are variable and j is imaginary number
+
+we can convert from one type to other type using typecast . 
+
+sequence
+1.list
+2.tuple
+3.set
+4.string
+5.range
+we dont have char in python
+
+dictionary
+
+>>> a=5.9
+>>> b=int(a)
+>>> b
+5
+>>> a=10+5j
+>>> a=True
+>>> b=a
+>>> b
+True
+>>> b=int(a)
+>>> b
+1
+>>> a=10
+>>> b=12
+>>> c=complex(a,b)
+>>> c
+(10+12j)
+
+>>> 
+>>> list(range(2,10,2))
+[2, 4, 6, 8]
+>>> 
+>>> list(range(2,10,9))
+[2]
+>>> 
+>>> 
+range take three parameter start ,stop,diffrence

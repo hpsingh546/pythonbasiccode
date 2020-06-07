@@ -1,0 +1,6 @@
+how to run program in cmd ?
+just save file with .py extension and and open cmd and go to the path of file and run with this command 
+
+python filename.py
+
+

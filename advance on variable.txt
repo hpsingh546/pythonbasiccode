@@ -1,0 +1,30 @@
+                                variable in python 
+IN python the address of a variable based on the address of value and the address of value is assigned to variable name we use id function to get the address of variable we simply pass variable name as argunment in id()
+
+if we create many varible with same value the id of value is assigned to all the variable 
+
+>>> a=19
+>>> id(a)
+1945696464
+>>> id(19)
+1945696464
+>>> b=19
+>>> id(b)
+1945696464
+>>> id(10)
+1945696320
+>>> b=10
+>>> id(b)
+1945696320
+>>> 9
+9
+ just like the case of b
+ whenever you have data in memory which is not in used or it will not tagged by any variable it will garbage collected later
+
+we cant make variable contant in python  but we can show our intension by making the variable name uppercase
+
+we can find the varible type by using type function we pass the varible name as argument
+>>> type(b)
+<class 'int'>
+>>> 
+normally this type is called datatype

@@ -1,0 +1,27 @@
+python programing
+2+3=5
+4-5=-1
+3*5=15
+1.when we perform division operation it will always give us floating point answer
+5/2=2.5
+2. 5//2=2 when we want output in int value then we use // in case of division
+it is also use boadmas rule
+5+8*9/3
+29.0
+5+8*9//3
+3. when we want to perform exponent operation we use symbol ** which is exponent of
+for example 2**3 this mean 2 exponent of 3
+4.modulas operation 
+10%3=1
+5. we can define string using ' single quote " or double quote
+6. \ back slash in front of single quote its meaning ignore single quote then
+7. \n is new line in python
+>>> print('c:\nanjadnja')
+c:
+anjadnja
+>>> print(r'c:\nsakndkand')
+c:\nsakndkand
+when we use r in print will string as raw so it will print exatly the same as we give
+when we multiply string by some number it will give that time string
+>>> print('mandjand'*10)
+mandjandmandjandmandjandmandjandmandjandmandjandmandjandmandjandmandjandmandjand

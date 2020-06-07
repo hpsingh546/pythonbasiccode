@@ -1,0 +1,37 @@
+                       if else
+which is used for conditional statement which meaning is same as if else in c,c++,java
+syntax of if else
+Python relies on indentation (whitespace at the beginning of a line) to define scope in the code.indentation is some specific space  in all statement Other programming languages often use curly-brackets for this purpose.like c,c++,java
+but in python if you define the if else you used simalar space in all statement 
+
+when we use two if for number to find odd even when we run debugger we se the compiler check for  both if wheter first if condiftion is true or not that is why we use else to increase efficiency when if conditon is not true it execute the statement of else without checking
+
+a=5
+if a%2==0:
+    print("even")
+else:
+    print("odd")
+
+we can also create nested if else we can check using indentaion
+a=2
+if a%2==0:
+    print("even")
+    if a>4:
+        print('number is greater than 4')
+    else:
+        print('number is not greater than 4')
+else:
+    print("odd")
+
+elif keyword
+"if the previous conditions were not true, then try this condition" if it is wrong then it only check for next confiditon
+
+a=8
+if a==1:
+    print("a=1")
+elif a==2:
+    print("a=2")
+elif a==3:
+    print("a=3")
+else:
+    print("no one")

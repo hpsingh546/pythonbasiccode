@@ -1,0 +1,43 @@
+                           scope
+a=10#scope of this variable is global we can access this variable anywhere in the program
+def var():
+   
+    a=19#scope of this variable is local we can only access this variable inside the function
+    print(a)
+
+var()
+print(a)
+
+
+but if you want to update the value of global variable using function  we can use the keyword global so it will treat variable as global variable 
+
+a=10
+def var():
+    global a
+    a=19#now this a refer to global variable but now we cant use variable a as local
+    print(a)
+
+var()
+print(a)
+global() return the dict containing all global variable but we need only a so we mention the variable name as key this function give access to use global varible inside function and we can also use same name local varble 
+global()['a']=78
+if we update in this it does update the value of global variable it will create new block x
+a=10#scope of this variable is global we can access this variable anywhere in the program
+def var():
+    x=globals()['a']
+    x=20
+    print(id(x),x)
+    a=19#scope of this variable is local we can only access this variable inside the function
+    print(a,id(a))
+var()
+print(a,id(a))
+correct way
+a=10#scope of this variable is global we can access this variable anywhere in the program
+def var():
+    x=globals()['a']=20#or globals()['a']=20
+    print(id(x),x)
+    a=19#scope of this variable is local we can only access this variable inside the function
+    print(a,id(a))
+var()
+print(a,id(a))
+now 

@@ -1,0 +1,56 @@
+                           Dictionary in python
+
+Unlike sequences, which are indexed by a range of numbers, dictionaries are indexed by keys, which can be any immutable type; strings and numbers can always be keys.
+*dictionary as a set of key: value pairs, with the requirement that the keys are unique (within one dictionary) in which key are given by us and we use this key to access an element .
+A pair of braces creates an empty dictionary: {}.
+Placing a comma-separated list of key:value pairs within the braces adds initial key:value pairs to the dictionary; this is also the way dictionaries are written on output. 
+key should be unique and immutable type
+dictionary are mutable we can change the value by using key.
+
+
+we can have dictionary or list as a value for dictionary itself
+
+dictunary.get(key)=return the value of key if key is not found then default value not an error
+
+zip function is used to join two list and return zip object and we need to typecast  the type of object in form of dict or list or set
+>>> a=[1,2,3,4,5,6]
+>>> b=[7,8,9,10,11,12]
+>>> z=zip(a,b)
+>>> z=list(z)
+>>> z
+[(1, 7), (2, 8), (3, 9), (4, 10), (5, 11), (6, 12)]
+
+>>> s={1:10,2:20}
+>>> s
+{1: 10, 2: 20}
+>>> type(s)
+<class 'dict'>
+>>> s={}
+>>> type(s)
+<class 'dict'>
+>>> s['manu']='gadha'
+>>> s['shally']='intelligent'
+>>> s
+{'manu': 'gadha', 'shally': 'intelligent'}
+>> s['shally']
+'intelligent'
+>>> s['shally']='syster'
+>>> s
+{'manu': 'gadha', 'shally': 'syster'}
+>>> s['t']
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    s['t']
+KeyError: 't'
+>>> s.get('t')
+>>> a=[1,2,3,4,5,6]
+>>> s['lists']=a
+>>> 
+>>> s
+{'manu': 'gadha', 'shally': 'syster', 'lists': [1, 2, 3, 4, 5, 6]}
+>>> s['lists'][0]
+1
+>>> dictionary={1:23,3:42}
+>>> s['dict']=dictionary
+>>> s
+{'manu': 'gadha', 'shally': 'syster', 'lists': [1, 2, 3, 4, 5, 6], 'dict': {1: 23, 3: 42}}

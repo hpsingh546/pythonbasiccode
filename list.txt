@@ -1,0 +1,73 @@
+     list
+it is basically a collection of similar as well diffrent type of data
+we can create list similar to array in c,c++
+
+nameof array=[values]
+we have to define list at the time of creation
+1.list is mutable so we can change this mean we can change the  content in the list.
+>>> manu=[10,293.21,'sdjahd']
+>>> manu
+[10, 293.21, 'sdjahd']
+>>> manu
+[10, 293.21, 'sdjahd']
+>>> nums=[10,20,30,201,213]
+>>> nums.append(69)
+which is used to insert an element at the end of list
+>>> nums
+[10, 20, 30, 201, 213, 69]
+>>> nums.count(10)
+1
+which is used to count the number of time an element occure
+>>> nums.insert(0,291)
+>>> nums
+[291, 10, 20, 30, 201, 213, 69]
+>>> nums.remove(30)
+which is used to remove particular element
+>>> nums
+[291, 10, 20, 201, 213, 69]
+>>> nums.insert(2,19)
+which is used to insert an element at particular index
+>>> nums
+[291, 10, 19, 20, 201, 213, 69]
+>>> nums.pop(-1)
+69
+which is used to remove one element by default index is -1
+>>> nums
+[291, 10, 19, 20, 201, 213]
+>>> nums.pop()
+213
+>>> nums
+[291, 10, 19, 20, 201]
+>>> nums[0]=2193
+
+>>> nums.extend([28,129,392,4932,1192])
+which is used to insert multiple element at the end
+>>> nums
+[28, 129, 392, 4932, 1192]
+>>> nums.sort()
+which is used to sort list in ascending order
+>>> nums
+[28, 129, 392, 1192, 4932]
+>>> nums.reverse()
+which isused to reverse list
+>>> nums
+[4932, 1192, 392, 129, 28]
+>>> del nums[2:4]
+which is used to delete element from start index 2 and end with index 3
+>>> nums
+[4932, 1192, 28]
+>>> len(nums)
+3
+>>> nums.append('dnjadja')
+>>> nums.append(291.21)
+>>> max(nums)
+4932
+>>> min(nums)
+28
+>>> len(nums)
+4
+>>> sum(nums)
+6443.21
+>>> nums
+[4932, 1192, 28, 291.21]
+

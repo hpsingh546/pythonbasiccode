@@ -1,0 +1,28 @@
+                               Array
+it is collection of similar type of element example collection of all int,float,char array in python they dont have specific size(fixed size ) which mean you can expand or shrink it
+it has certain method which we can use 
+
+In order to create an array we have to import a module called array in which we called function array in which we have to pass two thing
+1. typecode which mean type of array which we want to create and
+2. array element in square bracket and
+it return array array 
+import array as ar
+val=ar.array('i',[39,20])
+#for i in range(len(val)): we pass the index of array in val
+ #   print(val[i])
+#for i in val:in this case it directly point to array value
+ #   print(i)
+newval=ar.array(val.typecode,(i*i for i in val))
+in which we pass tuple value as array
+or
+newval=ar.array(val.typecode,[i*i for i in val])
+in which we pass array value as list
+
+in above statement it wil take typecode of previous array and take one value i at a time and assign to new array we can also perform operation on new value
+print(newval)
+i=0
+while i<len(newval):
+    print(newval[i])
+    i+=1
+print the value of array using while
+

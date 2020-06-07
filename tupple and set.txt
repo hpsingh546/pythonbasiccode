@@ -1,0 +1,32 @@
+                                tupple and SET
+tupple is almost like an list but tupple is immutable we cant change the value of tupple
+the speed of iteration is far more than list so it that is why you used the enhance the speed of execution
+
+define of tupple
+tup=(28,10,39)
+it is immutable 
+>>> tup=(29,129,239,32)
+>>> tup
+(29, 129, 239, 32)
+>>> tup.index(32)
+3
+>>> tup=(29,292,29,29)
+>>> tup.count(29)
+3
+we can only perform two method on tupple such as index and count .
+index it is used to find the index number of value
+
+count is used to find the number of time the value occure
+
+                                 SET
+set is basically a collection of unique element 
+
+we can define the SET by using 
+
+s={2893,219,392,'naknd'}
+when we print this value we can get random value not in the same sequence we can get iin random sequence .set using the concept of hash and using hash we improve the performance we want to fetch element as fast  as possible
+
+indexing is not supporting in set
+
+
+

@@ -1,0 +1,32 @@
+                               type of arguments
+argument are basically two type formal and actual argument 
+when you define a function then the parameter is formal argument
+
+when you call a function the value you pass is actual argument this actual argument  this are four type 
+
+
+def pearson(age,name="notmenti"):
+#here name is default argument if calling function does not give value for name then nomention is default value and non default argument follow default argument first we have to menstion default argument then we have to menstion non default argument
+    print(name,"=",age)
+
+pearson(10,"manai")
+#positon argument we have to take care of sequence of positon
+pearson(age=28,name="jsak")
+#here name and age are keyword
+pearson(age=39)
+#default argument when calling does not send all value for formal function
+
+
+position=
+keyword =if we dont know the position of formal argument then we use keyword in which we formal variable name in calling function
+default=
+variable length=*variablename 
+it is a type of argument that can accept one or multiple value
+
+def info(name,**data):#here **data is variable length keyword 
+    print(name)
+    print(data.items())#here function dict is used to view data item
+    for i,j in data.items():
+        print(i,j)
+
+info("manu",age=22,city='delhi',mob='997117385')#when user want to send the data with keyword then it use keyword variable length

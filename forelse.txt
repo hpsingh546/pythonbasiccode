@@ -1,0 +1,13 @@
+for else
+
+a=int(input("enter the number\n"))
+i=2
+while i<=a-1:
+    if a%i==0:
+        print(a,"is not prime number")
+        break
+    i+=1
+else:
+    print("prime")
+
+the else part is only executed if the condition is not satisfied in while even once and there is break in the loop
